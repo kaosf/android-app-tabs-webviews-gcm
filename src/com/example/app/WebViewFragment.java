@@ -30,6 +30,7 @@ public class WebViewFragment extends Fragment {
         return false;
       }
     });
+    wv.getSettings().setJavaScriptEnabled(true);
     wv.loadUrl(uri);
     return rootView;
   }
