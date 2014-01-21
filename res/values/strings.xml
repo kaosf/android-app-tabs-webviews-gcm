@@ -2,5 +2,6 @@
 <resources>
 
     <string name="app_name">EmptyApp</string>
+    <string name="sender_id"></string>
 
 </resources>
